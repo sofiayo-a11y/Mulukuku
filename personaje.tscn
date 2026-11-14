@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dg4uy1n7bbpth"]
+
+[ext_resource type="Script" uid="uid://c5ewig2u7st60" path="res://Mulukuku/personaje.gd" id="1_kp6s1"]
+[ext_resource type="Texture2D" uid="uid://cpkr3x2v4ae61" path="res://Mulukuku/Muluk.png" id="2_lalni"]
+
+[node name="Personaje" type="CharacterBody2D" unique_id=764155333]
+script = ExtResource("1_kp6s1")
+
+[node name="Muluk" type="Sprite2D" parent="." unique_id=1589459718]
+position = Vector2(755, 496.75)
+scale = Vector2(0.3877551, 0.31946623)
+texture = ExtResource("2_lalni")
